@@ -204,6 +204,11 @@ main{
     font-size:2.5rem ;
   }
 
+  .primeira-seçao button :hover {
+    background-color: var(--dark-blue);
+  cursor: pointer;
+}
+
   .segunda-seçao h2{
     font-size: 2.5rem ;
   }
@@ -224,4 +229,14 @@ header .dasktop a {
     text-decoration: none;
     color: var(--gunmetal);
 }
+}
+
+header .dasktop a{
+    color: var(--vermillion);
+}
+
+.terceira-seçao {
+    display: flex;
+    grid-column: 1 / 4;
+
 }
