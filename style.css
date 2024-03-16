@@ -22,7 +22,7 @@ body {
 
 }
 
-body.escurecer::before{
+body.escurecer:before{
     content: "";
     position: fixed;
     height: 100hv;
@@ -165,7 +165,7 @@ main{
 
 }
 .terceira-seçao img {
-   max-width: 6.25 rem; 
+   max-width: 6.25rem; 
 
 }
 .terceira-seçao strong{
@@ -177,8 +177,8 @@ main{
     color: var(--dark-blue);
     font-size: 1.125rem;
     font-weight: 800;
-    line-height: 1.5rem;
-    margin-block: 0.6rem;
+    line-height: 1.3rem;
+    margin-block: 0.8rem;
 }
 .terceira-seçao p {
     font-size: 0.9375rem;
@@ -236,7 +236,7 @@ header .dasktop a {
 }
 }
 
-header .dasktop a{
+header.dasktop a{
     color: var(--vermillion);
 }
 
